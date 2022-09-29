@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255,255,255);
+}
+
+                                                    /* HEAD */
+
+.container {
+    width:70vw;
+    height:70vh;
+    margin:auto;
+    padding: 5%;
+}
+
+.head1 {
+    display: flex;
+    margin: 20px 20px;
+}
+
+.task {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list{
+    font-size: 60px;
+    color: rgb(167, 163, 163);
+    margin-left: 7px;
+    font-family: 'raleway',sans-serif;
+}
+
+.right {
+    float:right;
+    font-size: 25px;
+    margin-top: 1rem;
+    padding-left: 28rem;
+}
+
+.add-list {
+    color: rgb(167, 163, 163);
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+}
+
+.material-icons {
+    color: #e02020;
+    font-size: 40px;
+}
+
+.material-icons:hover {
+    color: #3ecae2;
+}
+
+                                                    /* BOX */
+
+.a_link {
+    text-decoration: none;
+}
+
+.box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+                                                    /* BOX-1 */
+
+.b1 {
+    width:13vw;
+    height:40vh;
+    border:1px solid rgb(238,129,118);
+    border-radius: 8px;
+    margin-top: 1rem;
+    padding: 3%;
+    box-shadow:6px 5px 6px rgb(176, 171, 171) ;
+} 
+
+.b1 h3 {
+    font-size: 20px;
+    padding-left: 10px;
+    color:tomato;
+}
+
+.h3:hover {
+    color: #3ecae2;
+}
+
+.b1 hr {
+    margin: 10px 0px 20px 10px;
+    width: 12rem;
+}
+
+.b1 strike {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin:2px 0px 0px 10px;
+    color: #ff0d0d;
+}
+.b1 p {
+    font-size: 20px;
+    position: relative;
+    right: 1.2rem;
+}
+
+.b1 input {
+    margin: 5px 5px 0px 5px;
+
+}
+
+                                                    /*  INDEX-3 CSS */
+                                                    
+.t3body{
+    filter: blur(3px);
+    z-index: -1;
+}
+
+.page {
+    width:27%;
+    margin:auto;
+    border-radius: 10px;
+}
+
+.b3 {
+    position: absolute;
+    top:30%;
+    border:1px solid salmon;
+    border-radius: 10px;
+    text-align: center;
+    width:25%;
+    height:23vh;
+    padding:2%;
+    box-shadow: 5px 5px 6px rgb(157, 153, 153);
+}
+
+.b3 label {
+    text-align: center;
+    color:rgb(212, 46, 27);
+    font-size: 20px;
+}
+
+.b3 input {
+    width:80%;
+    height:4vh;
+    border:1px solid rgb(212, 98, 86);
+    border-radius: 4px;
+}
+
+.b3 button {
+    border:none;
+    background-color: rgb(218, 85, 62);
+    color: white;
+    border-radius: 19px;
+    padding: 8px;
+    width:30%;
+    font-size:17px ;
+}
+
+.back {
+    position: absolute;
+    top: 8rem;
+    left: 42rem;
+}
